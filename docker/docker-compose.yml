@@ -1,0 +1,6 @@
+﻿services:
+  template.bootstrapper:
+    image: template.bootstrapper
+    build:
+      context: .
+      dockerfile: src/Bootstrapper/Template.Bootstrapper/Dockerfile
